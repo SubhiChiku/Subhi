@@ -1,0 +1,28 @@
+from Subhi.core.bot import Subhi
+from Subhi.core.dir import dirr
+from Subhi.core.git import git
+from Subhi.core.userbot import Userbot
+from Subhi.misc import dbb, heroku
+
+from SafoneAPI import SafoneAPI
+from .logging import LOGGER
+
+dirr()
+git()
+dbb()
+heroku()
+
+app = Subhi()
+api = SafoneAPI()
+userbot = Userbot()
+
+
+from .platforms import *
+
+Apple = AppleAPI()
+Carbon = CarbonAPI()
+SoundCloud = SoundAPI()
+Spotify = SpotifyAPI()
+Resso = RessoAPI()
+Telegram = TeleAPI()
+YouTube = YouTubeAPI()
