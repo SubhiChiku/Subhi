@@ -1,6 +1,40 @@
+Skip to content
+SubhiChiku
+/
+Love
+
+Type / to search
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+BreadcrumbsLove/Love/plugins/bot
+/repo.py
+Go to file
+t
+Latest commit
+SubhiChiku
+SubhiChiku
+Update repo.py
+f44e3be
+ · 
+1 hour ago
+History
+File metadata and controls
+
+Code
+
+Blame
+62 lines (47 loc) · 2.23 KB
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from Subhi import app
+from Love import app
 from config import BOT_USERNAME
 
 start_txt = """**
@@ -51,7 +85,7 @@ InlineKeyboardButton("𝚂𝚃𝚁𝙸𝙽𝙶 𝙱𝙾𝚃", url=f"https://gith
 InlineKeyboardButton("𝚄𝚂𝙴𝚁 𝙱𝙾𝚃", url=f"https://github.com/subhichiku/USERBOT")
 ],
 
-        ]]
+        ]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
@@ -60,3 +94,12 @@ InlineKeyboardButton("𝚄𝚂𝙴𝚁 𝙱𝙾𝚃", url=f"https://github.com/s
         caption=start_txt,
         reply_markup=reply_markup
     )
+Symbols
+Find definitions and references for functions and other symbols in this file by clicking a symbol below or in the code.
+Filter symbols
+r
+const
+start_txt
+func
+start
+Love/Love/plugins/bot/repo.py at Suku · SubhiChiku/Love
