@@ -60,12 +60,3 @@ InlineKeyboardButton("𝚄𝚂𝙴𝚁 𝙱𝙾𝚃", url=f"https://github.com/s
         caption=start_txt,
         reply_markup=reply_markup
     )
-Symbols
-Find definitions and references for functions and other symbols in this file by clicking a symbol below or in the code.
-Filter symbols
-r
-const
-start_txt
-func
-start
-app/Subhi/plugins/bot/repo.py at Suku · SubhiChiku/Subhi
