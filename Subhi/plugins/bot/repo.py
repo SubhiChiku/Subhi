@@ -1,40 +1,6 @@
-Skip to content
-SubhiChiku
-/
-Love
-
-Type / to search
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-BreadcrumbsLove/Love/plugins/bot
-/repo.py
-Go to file
-t
-Latest commit
-SubhiChiku
-SubhiChiku
-Update repo.py
-f44e3be
- · 
-1 hour ago
-History
-File metadata and controls
-
-Code
-
-Blame
-62 lines (47 loc) · 2.23 KB
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from Love import app
+from Subhi import app
 from config import BOT_USERNAME
 
 start_txt = """**
