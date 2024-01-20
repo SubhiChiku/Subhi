@@ -68,4 +68,4 @@ const
 start_txt
 func
 start
-Love/Love/plugins/bot/repo.py at Suku · SubhiChiku/Love
+Subhi/Subhi/plugins/bot/repo.py at Suku · SubhiChiku/Subhi
