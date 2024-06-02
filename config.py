@@ -13,10 +13,10 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "MISS_SUBHIBOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "suvistarBOT")
 
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME" , "MISS_SUBHIBOT")
+ASSUSERNAME = getenv("ASSUSERNAME" , "suvistaro")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -24,7 +24,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 16000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002112415067))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002207550354))
 
 # Get this value from  on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 6134246701))
